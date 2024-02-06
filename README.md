@@ -1,10 +1,10 @@
 # Decision-Aware MBRL Papers
 A curated list of decision-aware MBRL papers in survey (as of September 2023): [A Unified View of Solving Objective Mismatch in Model-Based Reinforcement Learning](https://arxiv.org/abs/2310.06253). We identify 4 categories of approaches to address the [Objective Mismatch](https://arxiv.org/abs/2002.04523) problem in MBRL:
 
-1. [Distribution Correction](#distribution-correction) (policy and model shifts): Shifting the learning of model or policy to state/actions that matter!
-2. [Control-As-Inference](#control-as-inference): Unifying model and policy learning by maximizing the likelihood of optimal imagined trajectories!
-3. [Value-Equivalence](#value-equivalence) (value-prediction and robust control): Predict value rather than features and rurther learn robust dynamics with signed predictions! 
-4. [Differentiable Planning](#differentiable-planning): Solving all control components with gradients directly!
+1. [Distribution Correction](#distribution-correction) (policy and model shifts): Shifting the learning of model or policy to state/actions that matter
+2. [Control-As-Inference](#control-as-inference): Unifying model and policy learning by maximizing the likelihood of optimal imagined trajectories
+3. [Value-Equivalence](#value-equivalence) (value-prediction and robust control): Predict value rather than features and rurther learn robust dynamics with signed predictions
+4. [Differentiable Planning](#differentiable-planning): Solving all control components with gradients directly
 
 ![alt text](/img/mbrl_tree.png)
 ![alt text](/img/tb1.png)
@@ -52,6 +52,8 @@ Joint Model-Policy Optimization for Model-Based RL, Eysenbach et al, 2021, [pape
 * Online and offline reinforcement learning by planning with a learned model, Schrittwieser et al, 2021, [paper](https://arxiv.org/abs/2104.06294)
 * Policy-aware model learning for policy gradient methods, Abachi et al, 2020, [paper](https://arxiv.org/abs/2003.00030)
 * Proper value equivalence, Grimm et al, 2021, [paper](https://arxiv.org/abs/2106.10316)
+* TD-MPC2: Scalable, Robust World Models for Continuous Control, Hensen et al, 2023, [paper](https://arxiv.org/abs/2310.16828)
+* Temporal Difference Learning for Model Predictive Control, Hensen et al, 2022, [paper](https://arxiv.org/abs/2203.04955)
 * The predictron: End-to-end learning and planning, Silver et al, 2017, [paper](https://arxiv.org/abs/1612.08810)
 * The value equivalence principle for model-based reinforcement learning, Grimm et al, 2020, [paper](https://arxiv.org/abs/2011.03506)
 * Value gradient weighted model-based reinforcement learning, Voelcker et al, 2022, [paper](https://arxiv.org/abs/2204.01464)
@@ -76,6 +78,7 @@ Joint Model-Policy Optimization for Model-Based RL, Eysenbach et al, 2021, [pape
 
 ### IRL & IL
 * A Bayesian Approach to Robust Inverse Reinforcement Learning, Wei et al, 2023, [paper](https://arxiv.org/abs/2309.08571)
+* A Lagrangian method for inverse problems in reinforcement learning, Bacon et al, 2019, [paper](https://optrl2019.github.io/assets/accepted_papers/70.pdf)
 * Differentiable mpc for end-to-end planning and control, Amos et al, 2018, [paper](https://arxiv.org/abs/1810.13400)
 * Path integral networks: End-to-end differentiable optimal control, Okada et al, 2017, [paper](https://arxiv.org/abs/1706.09597)
 * Qmdp-net: Deep learning for planning under partial observability, Karkus et al, 2017, [paper](https://arxiv.org/abs/1703.06692)
